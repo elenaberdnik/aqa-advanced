@@ -1,3 +1,3 @@
-const OlenaAge = 31;
-const isAdult = OlenaAge >=18;
+const olenaAge = 31;
+const isAdult = olenaAge >=18;
 console.log (isAdult);
