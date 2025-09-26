@@ -1,14 +1,13 @@
 
 //task2
-
-function whyNum (num) {
-    console.log (num); 
-if (num <= 0) {
+function countDown(num) {
+    console.log(num); 
+    if (num <= 0) {
         return;
+    }
+    countDown(num - 1);  
 }
 
-    whyNum(num - 1);  
-}
-whyNum (5);
+countDown(5);
 
 

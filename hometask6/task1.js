@@ -11,12 +11,12 @@ console.log ("The number is odd");
 
 function handleNum (number, numEven, numOdd ) {
     if (number % 2 === 0) {
-        return numEven (number);
+        return numEven ();
     }
-return numOdd (number)
+return numOdd ();
 }
 
-handleNum (3,handleEven,handleOdd)
+handleNum (3, handleEven, handleOdd);
 
 
 
