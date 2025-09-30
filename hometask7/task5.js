@@ -1,7 +1,7 @@
-const firstArray = ["Apple", "Samsung", "Pixel", "Xiaomi", "OnePlus", "Huawei", "Nokia"];
-const secondArray = ["Anna", "Maria", "Olena", "Sophia", "Anastasiia", "Bohdana", "Inna"];
+const firstArrayPhones = ["Apple", "Samsung", "Pixel", "Xiaomi", "OnePlus", "Huawei", "Nokia"];
+const secondArrayNames = ["Anna", "Maria", "Olena", "Sophia", "Anastasiia", "Bohdana", "Inna"];
 
-const combinedArray = firstArray.concat(secondArray);
+const combinedArray = firstArrayPhones.concat(secondArrayNames);
 
 console.log(combinedArray);
 
