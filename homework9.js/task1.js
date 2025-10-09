@@ -11,7 +11,7 @@ const ebook1 = new EBook ("Why should we learn English", "Helen Donado", 1998, "
 ebook1.printInfo();
 
 const books = [book1, book2, ebook1];
-const oldestBook = Book.showOldestBook (books);
+const oldestBook = Book.findOldestBook (books);
 console.log (`The oldest book is ${oldestBook.title}`);
 
 const ebook2 = EBook.showBook(book1, "epub");

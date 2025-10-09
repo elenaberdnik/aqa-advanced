@@ -34,7 +34,7 @@ export default class Book {
 }
       this._year = value;
 }
-static showOldestBook (books) {
+static findOldestBook (books) {
     return books.reduce ((oldest, current)  => {
         return (oldest.year < current.year) ? oldest : current;
 
