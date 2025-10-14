@@ -8,3 +8,4 @@ if  (ordered === 0) {
 return "Your order is accepted";
 
 }
+console.log(checkOrder(10, 0));
